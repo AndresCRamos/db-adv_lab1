@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Results>
+  <Employee>
+    <employee_id>201</employee_id>
+    <first_name>Michael</first_name>
+    <last_name>Martinez</last_name>
+    <email>MMARTINE</email>
+    <department>Marketing</department>
+    <region>Americas</region>
+  </Employee>
+  <Employee>
+    <employee_id>202</employee_id>
+    <first_name>Pat</first_name>
+    <last_name>Davis</last_name>
+    <email>PDAVIS</email>
+    <department>Marketing</department>
+    <region>Americas</region>
+  </Employee>
+</Results>

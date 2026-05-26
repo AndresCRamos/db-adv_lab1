@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Results>
+  <Region name="Europe">
+    <Location location_id="2500" country_id="GB">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Magdalen Centre, The Oxford Science Park</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">OX9 9ZB</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Oxford</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Oxford</state_province>
+      <worker_count>34</worker_count>
+    </Location>
+    <Location location_id="2400" country_id="GB">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8204 Arthur St</street_address>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">London</city>
+      <worker_count>1</worker_count>
+    </Location>
+    <Location location_id="2700" country_id="DE">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Schwanthalerstr. 7031</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">80925</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Munich</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bavaria</state_province>
+      <worker_count>1</worker_count>
+    </Location>
+    <Location location_id="1000" country_id="IT">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1297 Via Cola di Rie</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">00989</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Roma</city>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="1100" country_id="IT">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">93091 Calle della Testa</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">10934</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Venice</city>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="2600" country_id="GB">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9702 Chester Road</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">09629850293</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Stretford</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Manchester</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="2900" country_id="CH">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">20 Rue des Corps-Saints</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1730</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Geneva</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Geneve</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="3000" country_id="CH">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Murtenstrasse 921</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3095</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bern</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BE</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="3100" country_id="NL">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pieter Breughelstraat 837</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3029SK</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Utrecht</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Utrecht</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+  </Region>
+  <Region name="Americas">
+    <Location location_id="1500" country_id="US">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2011 Interiors Blvd</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">99236</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">South San Francisco</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">California</state_province>
+      <worker_count>45</worker_count>
+    </Location>
+    <Location location_id="1700" country_id="US">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2004 Charade Rd</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">98199</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Seattle</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Washington</state_province>
+      <worker_count>18</worker_count>
+    </Location>
+    <Location location_id="1400" country_id="US">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2014 Jabberwocky Rd</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">26192</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Southlake</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Texas</state_province>
+      <worker_count>5</worker_count>
+    </Location>
+    <Location location_id="1800" country_id="CA">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">147 Spadina Ave</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">M5V 2L7</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Toronto</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ontario</state_province>
+      <worker_count>2</worker_count>
+    </Location>
+    <Location location_id="1600" country_id="US">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2007 Zagora St</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">50090</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">South Brunswick</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">New Jersey</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="1900" country_id="CA">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6092 Boxwood St</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">YSW 9T2</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Whitehorse</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Yukon</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="2800" country_id="BR">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rua Frei Caneca 1360 </street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">01307-002</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sao Paulo</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sao Paulo</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="3200" country_id="MX">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mariano Escobedo 9991</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">11932</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mexico City</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Distrito Federal</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+  </Region>
+  <Region name="Asia">
+    <Location location_id="1200" country_id="JP">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2017 Shinjuku-ku</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1689</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tokyo</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tokyo Prefecture</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="1300" country_id="JP">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9450 Kamiya-cho</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6823</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Hiroshima</city>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="2000" country_id="CN">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">40-5-12 Laogianggen</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">190518</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Beijing</city>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="2100" country_id="IN">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1298 Vileparle (E)</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">490231</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bombay</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Maharashtra</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+    <Location location_id="2300" country_id="SG">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">198 Clementi North</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">540198</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Singapore</city>
+      <worker_count>0</worker_count>
+    </Location>
+  </Region>
+  <Region name="Oceania">
+    <Location location_id="2200" country_id="AU">
+      <street_address xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">12-98 Victoria Street</street_address>
+      <postal_code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2901</postal_code>
+      <city xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sydney</city>
+      <state_province xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">New South Wales</state_province>
+      <worker_count>0</worker_count>
+    </Location>
+  </Region>
+  <Region name="Africa"/>
+</Results>

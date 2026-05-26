@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HumanResources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hr_schema.xsd">
+  <Regions>
+    <Region region_id="10">
+      <region_name>Europe</region_name>
+    </Region>
+    <Region region_id="20">
+      <region_name>Americas</region_name>
+    </Region>
+    <Region region_id="30">
+      <region_name>Asia</region_name>
+    </Region>
+    <Region region_id="40">
+      <region_name>Oceania</region_name>
+    </Region>
+    <Region region_id="50">
+      <region_name>Africa</region_name>
+    </Region>
+  </Regions>
+  <Countries>
+    <Country country_id="IT" region_id="10">
+      <country_name>Italy</country_name>
+    </Country>
+    <Country country_id="JP" region_id="30">
+      <country_name>Japan</country_name>
+    </Country>
+    <Country country_id="US" region_id="20">
+      <country_name>United States of America</country_name>
+    </Country>
+    <Country country_id="CA" region_id="20">
+      <country_name>Canada</country_name>
+    </Country>
+    <Country country_id="CN" region_id="30">
+      <country_name>China</country_name>
+    </Country>
+    <Country country_id="IN" region_id="30">
+      <country_name>India</country_name>
+    </Country>
+    <Country country_id="AU" region_id="40">
+      <country_name>Australia</country_name>
+    </Country>
+    <Country country_id="ZW" region_id="50">
+      <country_name>Zimbabwe</country_name>
+    </Country>
+    <Country country_id="SG" region_id="30">
+      <country_name>Singapore</country_name>
+    </Country>
+    <Country country_id="GB" region_id="10">
+      <country_name>United Kingdom of Great Britain and Northern Ireland</country_name>
+    </Country>
+    <Country country_id="FR" region_id="10">
+      <country_name>France</country_name>
+    </Country>
+    <Country country_id="DE" region_id="10">
+      <country_name>Germany</country_name>
+    </Country>
+    <Country country_id="ZM" region_id="50">
+      <country_name>Zambia</country_name>
+    </Country>
+    <Country country_id="EG" region_id="50">
+      <country_name>Egypt</country_name>
+    </Country>
+    <Country country_id="BR" region_id="20">
+      <country_name>Brazil</country_name>
+    </Country>
+    <Country country_id="CH" region_id="10">
+      <country_name>Switzerland</country_name>
+    </Country>
+    <Country country_id="NL" region_id="10">
+      <country_name>Netherlands</country_name>
+    </Country>
+    <Country country_id="MX" region_id="20">
+      <country_name>Mexico</country_name>
+    </Country>
+    <Country country_id="KW" region_id="30">
+      <country_name>Kuwait</country_name>
+    </Country>
+    <Country country_id="IL" region_id="30">
+      <country_name>Israel</country_name>
+    </Country>
+    <Country country_id="DK" region_id="10">
+      <country_name>Denmark</country_name>
+    </Country>
+    <Country country_id="ML" region_id="30">
+      <country_name>Malaysia</country_name>
+    </Country>
+    <Country country_id="NG" region_id="50">
+      <country_name>Nigeria</country_name>
+    </Country>
+    <Country country_id="AR" region_id="20">
+      <country_name>Argentina</country_name>
+    </Country>
+    <Country country_id="BE" region_id="10">
+      <country_name>Belgium</country_name>
+    </Country>
+  </Countries>
+  <Locations>
+    <Location location_id="1000" country_id="IT">
+      <street_address>1297 Via Cola di Rie</street_address>
+      <postal_code>00989</postal_code>
+      <city>Roma</city>
+    </Location>
+    <Location location_id="1100" country_id="IT">
+      <street_address>93091 Calle della Testa</street_address>
+      <postal_code>10934</postal_code>
+      <city>Venice</city>
+    </Location>
+    <Location location_id="1200" country_id="JP">
+      <street_address>2017 Shinjuku-ku</street_address>
+      <postal_code>1689</postal_code>
+      <city>Tokyo</city>
+      <state_province>Tokyo Prefecture</state_province>
+    </Location>
+    <Location location_id="1300" country_id="JP">
+      <street_address>9450 Kamiya-cho</street_address>
+      <postal_code>6823</postal_code>
+      <city>Hiroshima</city>
+    </Location>
+    <Location location_id="1400" country_id="US">
+      <street_address>2014 Jabberwocky Rd</street_address>
+      <postal_code>26192</postal_code>
+      <city>Southlake</city>
+      <state_province>Texas</state_province>
+    </Location>
+    <Location location_id="1500" country_id="US">
+      <street_address>2011 Interiors Blvd</street_address>
+      <postal_code>99236</postal_code>
+      <city>South San Francisco</city>
+      <state_province>California</state_province>
+    </Location>
+    <Location location_id="1600" country_id="US">
+      <street_address>2007 Zagora St</street_address>
+      <postal_code>50090</postal_code>
+      <city>South Brunswick</city>
+      <state_province>New Jersey</state_province>
+    </Location>
+    <Location location_id="1700" country_id="US">
+      <street_address>2004 Charade Rd</street_address>
+      <postal_code>98199</postal_code>
+      <city>Seattle</city>
+      <state_province>Washington</state_province>
+    </Location>
+    <Location location_id="1800" country_id="CA">
+      <street_address>147 Spadina Ave</street_address>
+      <postal_code>M5V 2L7</postal_code>
+      <city>Toronto</city>
+      <state_province>Ontario</state_province>
+    </Location>
+    <Location location_id="1900" country_id="CA">
+      <street_address>6092 Boxwood St</street_address>
+      <postal_code>YSW 9T2</postal_code>
+      <city>Whitehorse</city>
+      <state_province>Yukon</state_province>
+    </Location>
+    <Location location_id="2000" country_id="CN">
+      <street_address>40-5-12 Laogianggen</street_address>
+      <postal_code>190518</postal_code>
+      <city>Beijing</city>
+    </Location>
+    <Location location_id="2100" country_id="IN">
+      <street_address>1298 Vileparle (E)</street_address>
+      <postal_code>490231</postal_code>
+      <city>Bombay</city>
+      <state_province>Maharashtra</state_province>
+    </Location>
+    <Location location_id="2200" country_id="AU">
+      <street_address>12-98 Victoria Street</street_address>
+      <postal_code>2901</postal_code>
+      <city>Sydney</city>
+      <state_province>New South Wales</state_province>
+    </Location>
+    <Location location_id="2300" country_id="SG">
+      <street_address>198 Clementi North</street_address>
+      <postal_code>540198</postal_code>
+      <city>Singapore</city>
+    </Location>
+    <Location location_id="2400" country_id="GB">
+      <street_address>8204 Arthur St</street_address>
+      <city>London</city>
+    </Location>
+    <Location location_id="2500" country_id="GB">
+      <street_address>Magdalen Centre, The Oxford Science Park</street_address>
+      <postal_code>OX9 9ZB</postal_code>
+      <city>Oxford</city>
+      <state_province>Oxford</state_province>
+    </Location>
+    <Location location_id="2600" country_id="GB">
+      <street_address>9702 Chester Road</street_address>
+      <postal_code>09629850293</postal_code>
+      <city>Stretford</city>
+      <state_province>Manchester</state_province>
+    </Location>
+    <Location location_id="2700" country_id="DE">
+      <street_address>Schwanthalerstr. 7031</street_address>
+      <postal_code>80925</postal_code>
+      <city>Munich</city>
+      <state_province>Bavaria</state_province>
+    </Location>
+    <Location location_id="2800" country_id="BR">
+      <street_address>Rua Frei Caneca 1360 </street_address>
+      <postal_code>01307-002</postal_code>
+      <city>Sao Paulo</city>
+      <state_province>Sao Paulo</state_province>
+    </Location>
+    <Location location_id="2900" country_id="CH">
+      <street_address>20 Rue des Corps-Saints</street_address>
+      <postal_code>1730</postal_code>
+      <city>Geneva</city>
+      <state_province>Geneve</state_province>
+    </Location>
+    <Location location_id="3000" country_id="CH">
+      <street_address>Murtenstrasse 921</street_address>
+      <postal_code>3095</postal_code>
+      <city>Bern</city>
+      <state_province>BE</state_province>
+    </Location>
+    <Location location_id="3100" country_id="NL">
+      <street_address>Pieter Breughelstraat 837</street_address>
+      <postal_code>3029SK</postal_code>
+      <city>Utrecht</city>
+      <state_province>Utrecht</state_province>
+    </Location>
+    <Location location_id="3200" country_id="MX">
+      <street_address>Mariano Escobedo 9991</street_address>
+      <postal_code>11932</postal_code>
+      <city>Mexico City</city>
+      <state_province>Distrito Federal</state_province>
+    </Location>
+  </Locations>
+  <Departments>
+    <Department department_id="10" manager_id="200" location_id="1700">
+      <department_name>Administration</department_name>
+    </Department>
+    <Department department_id="20" manager_id="201" location_id="1800">
+      <department_name>Marketing</department_name>
+    </Department>
+    <Department department_id="30" manager_id="114" location_id="1700">
+      <department_name>Purchasing</department_name>
+    </Department>
+    <Department department_id="40" manager_id="203" location_id="2400">
+      <department_name>Human Resources</department_name>
+    </Department>
+    <Department department_id="50" manager_id="121" location_id="1500">
+      <department_name>Shipping</department_name>
+    </Department>
+    <Department department_id="60" manager_id="103" location_id="1400">
+      <department_name>IT</department_name>
+    </Department>
+    <Department department_id="70" manager_id="204" location_id="2700">
+      <department_name>Public Relations</department_name>
+    </Department>
+    <Department department_id="80" manager_id="145" location_id="2500">
+      <department_name>Sales</department_name>
+    </Department>
+    <Department department_id="90" manager_id="100" location_id="1700">
+      <department_name>Executive</department_name>
+    </Department>
+    <Department department_id="100" manager_id="108" location_id="1700">
+      <department_name>Finance</department_name>
+    </Department>
+    <Department department_id="110" manager_id="205" location_id="1700">
+      <department_name>Accounting</department_name>
+    </Department>
+    <Department department_id="120" location_id="1700">
+      <department_name>Treasury</department_name>
+    </Department>
+    <Department department_id="130" location_id="1700">
+      <department_name>Corporate Tax</department_name>
+    </Department>
+    <Department department_id="140" location_id="1700">
+      <department_name>Control And Credit</department_name>
+    </Department>
+    <Department department_id="150" location_id="1700">
+      <department_name>Shareholder Services</department_name>
+    </Department>
+    <Department department_id="160" location_id="1700">
+      <department_name>Benefits</department_name>
+    </Department>
+    <Department department_id="170" location_id="1700">
+      <department_name>Manufacturing</department_name>
+    </Department>
+    <Department department_id="180" location_id="1700">
+      <department_name>Construction</department_name>
+    </Department>
+    <Department department_id="190" location_id="1700">
+      <department_name>Contracting</department_name>
+    </Department>
+    <Department department_id="200" location_id="1700">
+      <department_name>Operations</department_name>
+    </Department>
+    <Department department_id="210" location_id="1700">
+      <department_name>IT Support</department_name>
+    </Department>
+    <Department department_id="220" location_id="1700">
+      <department_name>NOC</department_name>
+    </Department>
+    <Department department_id="230" location_id="1700">
+      <department_name>IT Helpdesk</department_name>
+    </Department>
+    <Department department_id="240" location_id="1700">
+      <department_name>Government Sales</department_name>
+    </Department>
+    <Department department_id="250" location_id="1700">
+      <department_name>Retail Sales</department_name>
+    </Department>
+    <Department department_id="260" location_id="1700">
+      <department_name>Recruiting</department_name>
+    </Department>
+    <Department department_id="270" location_id="1700">
+      <department_name>Payroll</department_name>
+    </Department>
+  </Departments>
+  <Jobs>
+    <Job job_id="AD_PRES">
+      <job_title>President</job_title>
+      <min_salary>20080</min_salary>
+      <max_salary>40000</max_salary>
+    </Job>
+    <Job job_id="AD_VP">
+      <job_title>Administration Vice President</job_title>
+      <min_salary>15000</min_salary>
+      <max_salary>30000</max_salary>
+    </Job>
+    <Job job_id="AD_ASST">
+      <job_title>Administration Assistant</job_title>
+      <min_salary>3000</min_salary>
+      <max_salary>6000</max_salary>
+    </Job>
+    <Job job_id="FI_MGR">
+      <job_title>Finance Manager</job_title>
+      <min_salary>8200</min_salary>
+      <max_salary>16000</max_salary>
+    </Job>
+    <Job job_id="FI_ACCOUNT">
+      <job_title>Accountant</job_title>
+      <min_salary>4200</min_salary>
+      <max_salary>9000</max_salary>
+    </Job>
+    <Job job_id="AC_MGR">
+      <job_title>Accounting Manager</job_title>
+      <min_salary>8200</min_salary>
+      <max_salary>16000</max_salary>
+    </Job>
+    <Job job_id="AC_ACCOUNT">
+      <job_title>Public Accountant</job_title>
+      <min_salary>4200</min_salary>
+      <max_salary>9000</max_salary>
+    </Job>
+    <Job job_id="SA_MAN">
+      <job_title>Sales Manager</job_title>
+      <min_salary>10000</min_salary>
+      <max_salary>20080</max_salary>
+    </Job>
+    <Job job_id="SA_REP">
+      <job_title>Sales Representative</job_title>
+      <min_salary>6000</min_salary>
+      <max_salary>12008</max_salary>
+    </Job>
+    <Job job_id="PU_MAN">
+      <job_title>Purchasing Manager</job_title>
+      <min_salary>8000</min_salary>
+      <max_salary>15000</max_salary>
+    </Job>
+    <Job job_id="PU_CLERK">
+      <job_title>Purchasing Clerk</job_title>
+      <min_salary>2500</min_salary>
+      <max_salary>5500</max_salary>
+    </Job>
+    <Job job_id="ST_MAN">
+      <job_title>Stock Manager</job_title>
+      <min_salary>5500</min_salary>
+      <max_salary>8500</max_salary>
+    </Job>
+    <Job job_id="ST_CLERK">
+      <job_title>Stock Clerk</job_title>
+      <min_salary>2008</min_salary>
+      <max_salary>5000</max_salary>
+    </Job>
+    <Job job_id="SH_CLERK">
+      <job_title>Shipping Clerk</job_title>
+      <min_salary>2500</min_salary>
+      <max_salary>5500</max_salary>
+    </Job>
+    <Job job_id="IT_PROG">
+      <job_title>Programmer</job_title>
+      <min_salary>4000</min_salary>
+      <max_salary>10000</max_salary>
+    </Job>
+    <Job job_id="MK_MAN">
+      <job_title>Marketing Manager</job_title>
+      <min_salary>9000</min_salary>
+      <max_salary>15000</max_salary>
+    </Job>
+    <Job job_id="MK_REP">
+      <job_title>Marketing Representative</job_title>
+      <min_salary>4000</min_salary>
+      <max_salary>9000</max_salary>
+    </Job>
+    <Job job_id="HR_REP">
+      <job_title>Human Resources Representative</job_title>
+      <min_salary>4000</min_salary>
+      <max_salary>9000</max_salary>
+    </Job>
+    <Job job_id="PR_REP">
+      <job_title>Public Relations Representative</job_title>
+      <min_salary>4500</min_salary>
+      <max_salary>10500</max_salary>
+    </Job>
+  </Jobs>
+  <Employees>
+    <Employee employee_id="100" job_id="AD_PRES" department_id="90">
+      <first_name>Steven</first_name>
+      <last_name>King</last_name>
+      <email>SKING</email>
+      <phone_number>1.515.555.0100</phone_number>
+      <hire_date>2013-06-17</hire_date>
+      <salary>24000</salary>
+    </Employee>
+    <Employee employee_id="101" job_id="AD_VP" manager_id="100" department_id="90">
+      <first_name>Neena</first_name>
+      <last_name>Yang</last_name>
+      <email>NYANG</email>
+      <phone_number>1.515.555.0101</phone_number>
+      <hire_date>2015-09-21</hire_date>
+      <salary>17000</salary>
+    </Employee>
+    <Employee employee_id="102" job_id="AD_VP" manager_id="100" department_id="90">
+      <first_name>Lex</first_name>
+      <last_name>Garcia</last_name>
+      <email>LGARCIA</email>
+      <phone_number>1.515.555.0102</phone_number>
+      <hire_date>2011-01-13</hire_date>
+      <salary>17000</salary>
+    </Employee>
+    <Employee employee_id="103" job_id="IT_PROG" manager_id="102" department_id="60">
+      <first_name>Alexander</first_name>
+      <last_name>James</last_name>
+      <email>AJAMES</email>
+      <phone_number>1.590.555.0103</phone_number>
+      <hire_date>2016-01-03</hire_date>
+      <salary>9000</salary>
+    </Employee>
+    <Employee employee_id="104" job_id="IT_PROG" manager_id="103" department_id="60">
+      <first_name>Bruce</first_name>
+      <last_name>Miller</last_name>
+      <email>BMILLER</email>
+      <phone_number>1.590.555.0104</phone_number>
+      <hire_date>2017-05-21</hire_date>
+      <salary>6000</salary>
+    </Employee>
+    <Employee employee_id="105" job_id="IT_PROG" manager_id="103" department_id="60">
+      <first_name>David</first_name>
+      <last_name>Williams</last_name>
+      <email>DWILLIAMS</email>
+      <phone_number>1.590.555.0105</phone_number>
+      <hire_date>2015-06-25</hire_date>
+      <salary>4800</salary>
+    </Employee>
+    <Employee employee_id="106" job_id="IT_PROG" manager_id="103" department_id="60">
+      <first_name>Valli</first_name>
+      <last_name>Jackson</last_name>
+      <email>VJACKSON</email>
+      <phone_number>1.590.555.0106</phone_number>
+      <hire_date>2016-02-05</hire_date>
+      <salary>4800</salary>
+    </Employee>
+    <Employee employee_id="107" job_id="IT_PROG" manager_id="103" department_id="60">
+      <first_name>Diana</first_name>
+      <last_name>Nguyen</last_name>
+      <email>DNGUYEN</email>
+      <phone_number>1.590.555.0107</phone_number>
+      <hire_date>2017-02-07</hire_date>
+      <salary>4200</salary>
+    </Employee>
+    <Employee employee_id="108" job_id="FI_MGR" manager_id="101" department_id="100">
+      <first_name>Nancy</first_name>
+      <last_name>Gruenberg</last_name>
+      <email>NGRUENBE</email>
+      <phone_number>1.515.555.0108</phone_number>
+      <hire_date>2012-08-17</hire_date>
+      <salary>12008</salary>
+    </Employee>
+    <Employee employee_id="109" job_id="FI_ACCOUNT" manager_id="108" department_id="100">
+      <first_name>Daniel</first_name>
+      <last_name>Faviet</last_name>
+      <email>DFAVIET</email>
+      <phone_number>1.515.555.0109</phone_number>
+      <hire_date>2012-08-16</hire_date>
+      <salary>9000</salary>
+    </Employee>
+    <Employee employee_id="110" job_id="FI_ACCOUNT" manager_id="108" department_id="100">
+      <first_name>John</first_name>
+      <last_name>Chen</last_name>
+      <email>JCHEN</email>
+      <phone_number>1.515.555.0110</phone_number>
+      <hire_date>2015-09-28</hire_date>
+      <salary>8200</salary>
+    </Employee>
+    <Employee employee_id="111" job_id="FI_ACCOUNT" manager_id="108" department_id="100">
+      <first_name>Ismael</first_name>
+      <last_name>Sciarra</last_name>
+      <email>ISCIARRA</email>
+      <phone_number>1.515.555.0111</phone_number>
+      <hire_date>2015-09-30</hire_date>
+      <salary>7700</salary>
+    </Employee>
+    <Employee employee_id="112" job_id="FI_ACCOUNT" manager_id="108" department_id="100">
+      <first_name>Jose Manuel</first_name>
+      <last_name>Urman</last_name>
+      <email>JMURMAN</email>
+      <phone_number>1.515.555.0112</phone_number>
+      <hire_date>2016-03-07</hire_date>
+      <salary>7800</salary>
+    </Employee>
+    <Employee employee_id="113" job_id="FI_ACCOUNT" manager_id="108" department_id="100">
+      <first_name>Luis</first_name>
+      <last_name>Popp</last_name>
+      <email>LPOPP</email>
+      <phone_number>1.515.555.0113</phone_number>
+      <hire_date>2017-12-07</hire_date>
+      <salary>6900</salary>
+    </Employee>
+    <Employee employee_id="114" job_id="PU_MAN" manager_id="100" department_id="30">
+      <first_name>Den</first_name>
+      <last_name>Li</last_name>
+      <email>DLI</email>
+      <phone_number>1.515.555.0114</phone_number>
+      <hire_date>2012-12-07</hire_date>
+      <salary>11000</salary>
+    </Employee>
+    <Employee employee_id="115" job_id="PU_CLERK" manager_id="114" department_id="30">
+      <first_name>Alexander</first_name>
+      <last_name>Khoo</last_name>
+      <email>AKHOO</email>
+      <phone_number>1.515.555.0115</phone_number>
+      <hire_date>2013-05-18</hire_date>
+      <salary>3100</salary>
+    </Employee>
+    <Employee employee_id="116" job_id="PU_CLERK" manager_id="114" department_id="30">
+      <first_name>Shelli</first_name>
+      <last_name>Baida</last_name>
+      <email>SBAIDA</email>
+      <phone_number>1.515.555.0116</phone_number>
+      <hire_date>2015-12-24</hire_date>
+      <salary>2900</salary>
+    </Employee>
+    <Employee employee_id="117" job_id="PU_CLERK" manager_id="114" department_id="30">
+      <first_name>Sigal</first_name>
+      <last_name>Tobias</last_name>
+      <email>STOBIAS</email>
+      <phone_number>1.515.555.0117</phone_number>
+      <hire_date>2015-07-24</hire_date>
+      <salary>2800</salary>
+    </Employee>
+    <Employee employee_id="118" job_id="PU_CLERK" manager_id="114" department_id="30">
+      <first_name>Guy</first_name>
+      <last_name>Himuro</last_name>
+      <email>GHIMURO</email>
+      <phone_number>1.515.555.0118</phone_number>
+      <hire_date>2016-11-15</hire_date>
+      <salary>2600</salary>
+    </Employee>
+    <Employee employee_id="119" job_id="PU_CLERK" manager_id="114" department_id="30">
+      <first_name>Karen</first_name>
+      <last_name>Colmenares</last_name>
+      <email>KCOLMENA</email>
+      <phone_number>1.515.555.0119</phone_number>
+      <hire_date>2017-08-10</hire_date>
+      <salary>2500</salary>
+    </Employee>
+    <Employee employee_id="120" job_id="ST_MAN" manager_id="100" department_id="50">
+      <first_name>Matthew</first_name>
+      <last_name>Weiss</last_name>
+      <email>MWEISS</email>
+      <phone_number>1.650.555.0120</phone_number>
+      <hire_date>2014-07-18</hire_date>
+      <salary>8000</salary>
+    </Employee>
+    <Employee employee_id="121" job_id="ST_MAN" manager_id="100" department_id="50">
+      <first_name>Adam</first_name>
+      <last_name>Fripp</last_name>
+      <email>AFRIPP</email>
+      <phone_number>1.650.555.0121</phone_number>
+      <hire_date>2015-04-10</hire_date>
+      <salary>8200</salary>
+    </Employee>
+    <Employee employee_id="122" job_id="ST_MAN" manager_id="100" department_id="50">
+      <first_name>Payam</first_name>
+      <last_name>Kaufling</last_name>
+      <email>PKAUFLIN</email>
+      <phone_number>1.650.555.0122</phone_number>
+      <hire_date>2013-05-01</hire_date>
+      <salary>7900</salary>
+    </Employee>
+    <Employee employee_id="123" job_id="ST_MAN" manager_id="100" department_id="50">
+      <first_name>Shanta</first_name>
+      <last_name>Vollman</last_name>
+      <email>SVOLLMAN</email>
+      <phone_number>1.650.555.0123</phone_number>
+      <hire_date>2015-10-10</hire_date>
+      <salary>6500</salary>
+    </Employee>
+    <Employee employee_id="124" job_id="ST_MAN" manager_id="100" department_id="50">
+      <first_name>Kevin</first_name>
+      <last_name>Mourgos</last_name>
+      <email>KMOURGOS</email>
+      <phone_number>1.650.555.0124</phone_number>
+      <hire_date>2017-11-16</hire_date>
+      <salary>5800</salary>
+    </Employee>
+    <Employee employee_id="125" job_id="ST_CLERK" manager_id="120" department_id="50">
+      <first_name>Julia</first_name>
+      <last_name>Nayer</last_name>
+      <email>JNAYER</email>
+      <phone_number>1.650.555.0125</phone_number>
+      <hire_date>2015-07-16</hire_date>
+      <salary>3200</salary>
+    </Employee>
+    <Employee employee_id="126" job_id="ST_CLERK" manager_id="120" department_id="50">
+      <first_name>Irene</first_name>
+      <last_name>Mikkilineni</last_name>
+      <email>IMIKKILI</email>
+      <phone_number>1.650.555.0126</phone_number>
+      <hire_date>2016-09-28</hire_date>
+      <salary>2700</salary>
+    </Employee>
+    <Employee employee_id="127" job_id="ST_CLERK" manager_id="120" department_id="50">
+      <first_name>James</first_name>
+      <last_name>Landry</last_name>
+      <email>JLANDRY</email>
+      <phone_number>1.650.555.0127</phone_number>
+      <hire_date>2017-01-14</hire_date>
+      <salary>2400</salary>
+    </Employee>
+    <Employee employee_id="128" job_id="ST_CLERK" manager_id="120" department_id="50">
+      <first_name>Steven</first_name>
+      <last_name>Markle</last_name>
+      <email>SMARKLE</email>
+      <phone_number>1.650.555.0128</phone_number>
+      <hire_date>2018-03-08</hire_date>
+      <salary>2200</salary>
+    </Employee>
+    <Employee employee_id="129" job_id="ST_CLERK" manager_id="121" department_id="50">
+      <first_name>Laura</first_name>
+      <last_name>Bissot</last_name>
+      <email>LBISSOT</email>
+      <phone_number>1.650.555.0129</phone_number>
+      <hire_date>2015-08-20</hire_date>
+      <salary>3300</salary>
+    </Employee>
+    <Employee employee_id="130" job_id="ST_CLERK" manager_id="121" department_id="50">
+      <first_name>Mozhe</first_name>
+      <last_name>Atkinson</last_name>
+      <email>MATKINSO</email>
+      <phone_number>1.650.555.0130</phone_number>
+      <hire_date>2015-10-30</hire_date>
+      <salary>2800</salary>
+    </Employee>
+    <Employee employee_id="131" job_id="ST_CLERK" manager_id="121" department_id="50">
+      <first_name>James</first_name>
+      <last_name>Marlow</last_name>
+      <email>JAMRLOW</email>
+      <phone_number>1.650.555.0131</phone_number>
+      <hire_date>2015-02-16</hire_date>
+      <salary>2500</salary>
+    </Employee>
+    <Employee employee_id="132" job_id="ST_CLERK" manager_id="121" department_id="50">
+      <first_name>TJ</first_name>
+      <last_name>Olson</last_name>
+      <email>TJOLSON</email>
+      <phone_number>1.650.555.0132</phone_number>
+      <hire_date>2017-04-10</hire_date>
+      <salary>2100</salary>
+    </Employee>
+    <Employee employee_id="133" job_id="ST_CLERK" manager_id="122" department_id="50">
+      <first_name>Jason</first_name>
+      <last_name>Mallin</last_name>
+      <email>JMALLIN</email>
+      <phone_number>1.650.555.0133</phone_number>
+      <hire_date>2014-06-14</hire_date>
+      <salary>3300</salary>
+    </Employee>
+    <Employee employee_id="134" job_id="ST_CLERK" manager_id="122" department_id="50">
+      <first_name>Michael</first_name>
+      <last_name>Rogers</last_name>
+      <email>MROGERS</email>
+      <phone_number>1.650.555.0134</phone_number>
+      <hire_date>2016-08-26</hire_date>
+      <salary>2900</salary>
+    </Employee>
+    <Employee employee_id="135" job_id="ST_CLERK" manager_id="122" department_id="50">
+      <first_name>Ki</first_name>
+      <last_name>Gee</last_name>
+      <email>KGEE</email>
+      <phone_number>1.650.555.0135</phone_number>
+      <hire_date>2017-12-12</hire_date>
+      <salary>2400</salary>
+    </Employee>
+    <Employee employee_id="136" job_id="ST_CLERK" manager_id="122" department_id="50">
+      <first_name>Hazel</first_name>
+      <last_name>Philtanker</last_name>
+      <email>HPHILTAN</email>
+      <phone_number>1.650.555.0136</phone_number>
+      <hire_date>2018-02-06</hire_date>
+      <salary>2200</salary>
+    </Employee>
+    <Employee employee_id="137" job_id="ST_CLERK" manager_id="123" department_id="50">
+      <first_name>Renske</first_name>
+      <last_name>Ladwig</last_name>
+      <email>RLADWIG</email>
+      <phone_number>1.650.555.0137</phone_number>
+      <hire_date>2013-07-14</hire_date>
+      <salary>3600</salary>
+    </Employee>
+    <Employee employee_id="138" job_id="ST_CLERK" manager_id="123" department_id="50">
+      <first_name>Stephen</first_name>
+      <last_name>Stiles</last_name>
+      <email>SSTILES</email>
+      <phone_number>1.650.555.0138</phone_number>
+      <hire_date>2015-10-26</hire_date>
+      <salary>3200</salary>
+    </Employee>
+    <Employee employee_id="139" job_id="ST_CLERK" manager_id="123" department_id="50">
+      <first_name>John</first_name>
+      <last_name>Seo</last_name>
+      <email>JSEO</email>
+      <phone_number>1.650.555.0139</phone_number>
+      <hire_date>2016-02-12</hire_date>
+      <salary>2700</salary>
+    </Employee>
+    <Employee employee_id="140" job_id="ST_CLERK" manager_id="123" department_id="50">
+      <first_name>Joshua</first_name>
+      <last_name>Patel</last_name>
+      <email>JPATEL</email>
+      <phone_number>1.650.555.0140</phone_number>
+      <hire_date>2016-04-06</hire_date>
+      <salary>2500</salary>
+    </Employee>
+    <Employee employee_id="141" job_id="ST_CLERK" manager_id="124" department_id="50">
+      <first_name>Trenna</first_name>
+      <last_name>Rajs</last_name>
+      <email>TRAJS</email>
+      <phone_number>1.650.555.0141</phone_number>
+      <hire_date>2013-10-17</hire_date>
+      <salary>3500</salary>
+    </Employee>
+    <Employee employee_id="142" job_id="ST_CLERK" manager_id="124" department_id="50">
+      <first_name>Curtis</first_name>
+      <last_name>Davies</last_name>
+      <email>CDAVIES</email>
+      <phone_number>1.650.555.0142</phone_number>
+      <hire_date>2015-01-29</hire_date>
+      <salary>3100</salary>
+    </Employee>
+    <Employee employee_id="143" job_id="ST_CLERK" manager_id="124" department_id="50">
+      <first_name>Randall</first_name>
+      <last_name>Matos</last_name>
+      <email>RMATOS</email>
+      <phone_number>1.650.555.0143</phone_number>
+      <hire_date>2016-03-15</hire_date>
+      <salary>2600</salary>
+    </Employee>
+    <Employee employee_id="144" job_id="ST_CLERK" manager_id="124" department_id="50">
+      <first_name>Peter</first_name>
+      <last_name>Vargas</last_name>
+      <email>PVARGAS</email>
+      <phone_number>1.650.555.0144</phone_number>
+      <hire_date>2016-07-09</hire_date>
+      <salary>2500</salary>
+    </Employee>
+    <Employee employee_id="145" job_id="SA_MAN" manager_id="100" department_id="80">
+      <first_name>John</first_name>
+      <last_name>Singh</last_name>
+      <email>JSINGH</email>
+      <phone_number>44.1632.960000</phone_number>
+      <hire_date>2014-10-01</hire_date>
+      <salary>14000</salary>
+      <commission_pct>0.40</commission_pct>
+    </Employee>
+    <Employee employee_id="146" job_id="SA_MAN" manager_id="100" department_id="80">
+      <first_name>Karen</first_name>
+      <last_name>Partners</last_name>
+      <email>KPARTNER</email>
+      <phone_number>44.1632.960001</phone_number>
+      <hire_date>2015-01-05</hire_date>
+      <salary>13500</salary>
+      <commission_pct>0.30</commission_pct>
+    </Employee>
+    <Employee employee_id="147" job_id="SA_MAN" manager_id="100" department_id="80">
+      <first_name>Alberto</first_name>
+      <last_name>Errazuriz</last_name>
+      <email>AERRAZUR</email>
+      <phone_number>44.1632.960002</phone_number>
+      <hire_date>2015-03-10</hire_date>
+      <salary>12000</salary>
+      <commission_pct>0.30</commission_pct>
+    </Employee>
+    <Employee employee_id="148" job_id="SA_MAN" manager_id="100" department_id="80">
+      <first_name>Gerald</first_name>
+      <last_name>Cambrault</last_name>
+      <email>GCAMBRAU</email>
+      <phone_number>44.1632.960003</phone_number>
+      <hire_date>2017-10-15</hire_date>
+      <salary>11000</salary>
+      <commission_pct>0.30</commission_pct>
+    </Employee>
+    <Employee employee_id="149" job_id="SA_MAN" manager_id="100" department_id="80">
+      <first_name>Eleni</first_name>
+      <last_name>Zlotkey</last_name>
+      <email>EZLOTKEY</email>
+      <phone_number>44.1632.960004</phone_number>
+      <hire_date>2018-01-29</hire_date>
+      <salary>10500</salary>
+      <commission_pct>0.20</commission_pct>
+    </Employee>
+    <Employee employee_id="150" job_id="SA_REP" manager_id="145" department_id="80">
+      <first_name>Sean</first_name>
+      <last_name>Tucker</last_name>
+      <email>STUCKER</email>
+      <phone_number>44.1632.960005</phone_number>
+      <hire_date>2015-01-30</hire_date>
+      <salary>10000</salary>
+      <commission_pct>0.30</commission_pct>
+    </Employee>
+    <Employee employee_id="151" job_id="SA_REP" manager_id="145" department_id="80">
+      <first_name>David</first_name>
+      <last_name>Bernstein</last_name>
+      <email>DBERNSTE</email>
+      <phone_number>44.1632.960006</phone_number>
+      <hire_date>2015-03-24</hire_date>
+      <salary>9500</salary>
+      <commission_pct>0.25</commission_pct>
+    </Employee>
+    <Employee employee_id="152" job_id="SA_REP" manager_id="145" department_id="80">
+      <first_name>Peter</first_name>
+      <last_name>Hall</last_name>
+      <email>PHALL</email>
+      <phone_number>44.1632.960007</phone_number>
+      <hire_date>2015-08-20</hire_date>
+      <salary>9000</salary>
+      <commission_pct>0.25</commission_pct>
+    </Employee>
+    <Employee employee_id="153" job_id="SA_REP" manager_id="145" department_id="80">
+      <first_name>Christopher</first_name>
+      <last_name>Olsen</last_name>
+      <email>COLSEN</email>
+      <phone_number>44.1632.960008</phone_number>
+      <hire_date>2016-03-30</hire_date>
+      <salary>8000</salary>
+      <commission_pct>0.20</commission_pct>
+    </Employee>
+    <Employee employee_id="154" job_id="SA_REP" manager_id="145" department_id="80">
+      <first_name>Nanette</first_name>
+      <last_name>Cambrault</last_name>
+      <email>NCAMBRAU</email>
+      <phone_number>44.1632.960009</phone_number>
+      <hire_date>2016-12-09</hire_date>
+      <salary>7500</salary>
+      <commission_pct>0.20</commission_pct>
+    </Employee>
+    <Employee employee_id="155" job_id="SA_REP" manager_id="145" department_id="80">
+      <first_name>Oliver</first_name>
+      <last_name>Tuvault</last_name>
+      <email>OTUVAULT</email>
+      <phone_number>44.1632.960010</phone_number>
+      <hire_date>2017-11-23</hire_date>
+      <salary>7000</salary>
+      <commission_pct>0.15</commission_pct>
+    </Employee>
+    <Employee employee_id="156" job_id="SA_REP" manager_id="146" department_id="80">
+      <first_name>Janette</first_name>
+      <last_name>King</last_name>
+      <email>JKING</email>
+      <phone_number>44.1632.960011</phone_number>
+      <hire_date>2014-01-30</hire_date>
+      <salary>10000</salary>
+      <commission_pct>0.35</commission_pct>
+    </Employee>
+    <Employee employee_id="157" job_id="SA_REP" manager_id="146" department_id="80">
+      <first_name>Patrick</first_name>
+      <last_name>Sully</last_name>
+      <email>PSULLY</email>
+      <phone_number>44.1632.960012</phone_number>
+      <hire_date>2014-03-04</hire_date>
+      <salary>9500</salary>
+      <commission_pct>0.35</commission_pct>
+    </Employee>
+    <Employee employee_id="158" job_id="SA_REP" manager_id="146" department_id="80">
+      <first_name>Allan</first_name>
+      <last_name>McEwen</last_name>
+      <email>AMCEWEN</email>
+      <phone_number>44.1632.960013</phone_number>
+      <hire_date>2014-08-01</hire_date>
+      <salary>9000</salary>
+      <commission_pct>0.35</commission_pct>
+    </Employee>
+    <Employee employee_id="159" job_id="SA_REP" manager_id="146" department_id="80">
+      <first_name>Lindsey</first_name>
+      <last_name>Smith</last_name>
+      <email>LSMITH</email>
+      <phone_number>44.1632.960014</phone_number>
+      <hire_date>2015-03-10</hire_date>
+      <salary>8000</salary>
+      <commission_pct>0.30</commission_pct>
+    </Employee>
+    <Employee employee_id="160" job_id="SA_REP" manager_id="146" department_id="80">
+      <first_name>Louise</first_name>
+      <last_name>Doran</last_name>
+      <email>LDORAN</email>
+      <phone_number>44.1632.960015</phone_number>
+      <hire_date>2015-12-15</hire_date>
+      <salary>7500</salary>
+      <commission_pct>0.30</commission_pct>
+    </Employee>
+    <Employee employee_id="161" job_id="SA_REP" manager_id="146" department_id="80">
+      <first_name>Sarath</first_name>
+      <last_name>Sewall</last_name>
+      <email>SSEWALL</email>
+      <phone_number>44.1632.960016</phone_number>
+      <hire_date>2016-11-03</hire_date>
+      <salary>7000</salary>
+      <commission_pct>0.25</commission_pct>
+    </Employee>
+    <Employee employee_id="162" job_id="SA_REP" manager_id="147" department_id="80">
+      <first_name>Clara</first_name>
+      <last_name>Vishney</last_name>
+      <email>CVISHNEY</email>
+      <phone_number>44.1632.960017</phone_number>
+      <hire_date>2015-11-11</hire_date>
+      <salary>10500</salary>
+      <commission_pct>0.25</commission_pct>
+    </Employee>
+    <Employee employee_id="163" job_id="SA_REP" manager_id="147" department_id="80">
+      <first_name>Danielle</first_name>
+      <last_name>Greene</last_name>
+      <email>DGREENE</email>
+      <phone_number>44.1632.960018</phone_number>
+      <hire_date>2017-03-19</hire_date>
+      <salary>9500</salary>
+      <commission_pct>0.15</commission_pct>
+    </Employee>
+    <Employee employee_id="164" job_id="SA_REP" manager_id="147" department_id="80">
+      <first_name>Mattea</first_name>
+      <last_name>Marvins</last_name>
+      <email>MMARVINS</email>
+      <phone_number>44.1632.960019</phone_number>
+      <hire_date>2018-01-24</hire_date>
+      <salary>7200</salary>
+      <commission_pct>0.10</commission_pct>
+    </Employee>
+    <Employee employee_id="165" job_id="SA_REP" manager_id="147" department_id="80">
+      <first_name>David</first_name>
+      <last_name>Lee</last_name>
+      <email>DLEE</email>
+      <phone_number>44.1632.960020</phone_number>
+      <hire_date>2018-02-23</hire_date>
+      <salary>6800</salary>
+      <commission_pct>0.10</commission_pct>
+    </Employee>
+    <Employee employee_id="166" job_id="SA_REP" manager_id="147" department_id="80">
+      <first_name>Sundar</first_name>
+      <last_name>Ande</last_name>
+      <email>SANDE</email>
+      <phone_number>44.1632.960021</phone_number>
+      <hire_date>2018-03-24</hire_date>
+      <salary>6400</salary>
+      <commission_pct>0.10</commission_pct>
+    </Employee>
+    <Employee employee_id="167" job_id="SA_REP" manager_id="147" department_id="80">
+      <first_name>Amit</first_name>
+      <last_name>Banda</last_name>
+      <email>ABANDA</email>
+      <phone_number>44.1632.960022</phone_number>
+      <hire_date>2018-04-21</hire_date>
+      <salary>6200</salary>
+      <commission_pct>0.10</commission_pct>
+    </Employee>
+    <Employee employee_id="168" job_id="SA_REP" manager_id="148" department_id="80">
+      <first_name>Lisa</first_name>
+      <last_name>Ozer</last_name>
+      <email>LOZER</email>
+      <phone_number>44.1632.960023</phone_number>
+      <hire_date>2015-03-11</hire_date>
+      <salary>11500</salary>
+      <commission_pct>0.25</commission_pct>
+    </Employee>
+    <Employee employee_id="169" job_id="SA_REP" manager_id="148" department_id="80">
+      <first_name>Harrison</first_name>
+      <last_name>Bloom</last_name>
+      <email>HBLOOM</email>
+      <phone_number>44.1632.960024</phone_number>
+      <hire_date>2016-03-23</hire_date>
+      <salary>10000</salary>
+      <commission_pct>0.20</commission_pct>
+    </Employee>
+    <Employee employee_id="170" job_id="SA_REP" manager_id="148" department_id="80">
+      <first_name>Tayler</first_name>
+      <last_name>Fox</last_name>
+      <email>TFOX</email>
+      <phone_number>44.1632.960025</phone_number>
+      <hire_date>2016-01-24</hire_date>
+      <salary>9600</salary>
+      <commission_pct>0.20</commission_pct>
+    </Employee>
+    <Employee employee_id="171" job_id="SA_REP" manager_id="148" department_id="80">
+      <first_name>William</first_name>
+      <last_name>Smith</last_name>
+      <email>WSMITH</email>
+      <phone_number>44.1632.960026</phone_number>
+      <hire_date>2017-02-23</hire_date>
+      <salary>7400</salary>
+      <commission_pct>0.15</commission_pct>
+    </Employee>
+    <Employee employee_id="172" job_id="SA_REP" manager_id="148" department_id="80">
+      <first_name>Elizabeth</first_name>
+      <last_name>Bates</last_name>
+      <email>EBATES</email>
+      <phone_number>44.1632.960027</phone_number>
+      <hire_date>2017-03-24</hire_date>
+      <salary>7300</salary>
+      <commission_pct>0.15</commission_pct>
+    </Employee>
+    <Employee employee_id="173" job_id="SA_REP" manager_id="148" department_id="80">
+      <first_name>Sundita</first_name>
+      <last_name>Kumar</last_name>
+      <email>SKUMAR</email>
+      <phone_number>44.1632.960028</phone_number>
+      <hire_date>2018-04-21</hire_date>
+      <salary>6100</salary>
+      <commission_pct>0.10</commission_pct>
+    </Employee>
+    <Employee employee_id="174" job_id="SA_REP" manager_id="149" department_id="80">
+      <first_name>Ellen</first_name>
+      <last_name>Abel</last_name>
+      <email>EABEL</email>
+      <phone_number>44.1632.960029</phone_number>
+      <hire_date>2014-05-11</hire_date>
+      <salary>11000</salary>
+      <commission_pct>0.30</commission_pct>
+    </Employee>
+    <Employee employee_id="175" job_id="SA_REP" manager_id="149" department_id="80">
+      <first_name>Alyssa</first_name>
+      <last_name>Hutton</last_name>
+      <email>AHUTTON</email>
+      <phone_number>44.1632.960030</phone_number>
+      <hire_date>2015-03-19</hire_date>
+      <salary>8800</salary>
+      <commission_pct>0.25</commission_pct>
+    </Employee>
+    <Employee employee_id="176" job_id="SA_REP" manager_id="149" department_id="80">
+      <first_name>Jonathon</first_name>
+      <last_name>Taylor</last_name>
+      <email>JTAYLOR</email>
+      <phone_number>44.1632.960031</phone_number>
+      <hire_date>2016-03-24</hire_date>
+      <salary>8600</salary>
+      <commission_pct>0.20</commission_pct>
+    </Employee>
+    <Employee employee_id="177" job_id="SA_REP" manager_id="149" department_id="80">
+      <first_name>Jack</first_name>
+      <last_name>Livingston</last_name>
+      <email>JLIVINGS</email>
+      <phone_number>44.1632.960032</phone_number>
+      <hire_date>2016-04-23</hire_date>
+      <salary>8400</salary>
+      <commission_pct>0.20</commission_pct>
+    </Employee>
+    <Employee employee_id="178" job_id="SA_REP" manager_id="149">
+      <first_name>Kimberely</first_name>
+      <last_name>Grant</last_name>
+      <email>KGRANT</email>
+      <phone_number>44.1632.960033</phone_number>
+      <hire_date>2017-05-24</hire_date>
+      <salary>7000</salary>
+      <commission_pct>0.15</commission_pct>
+    </Employee>
+    <Employee employee_id="179" job_id="SA_REP" manager_id="149" department_id="80">
+      <first_name>Charles</first_name>
+      <last_name>Johnson</last_name>
+      <email>CJOHNSON</email>
+      <phone_number>44.1632.960034</phone_number>
+      <hire_date>2018-01-04</hire_date>
+      <salary>6200</salary>
+      <commission_pct>0.10</commission_pct>
+    </Employee>
+    <Employee employee_id="180" job_id="SH_CLERK" manager_id="120" department_id="50">
+      <first_name>Winston</first_name>
+      <last_name>Taylor</last_name>
+      <email>WTAYLOR</email>
+      <phone_number>1.650.555.0145</phone_number>
+      <hire_date>2016-01-24</hire_date>
+      <salary>3200</salary>
+    </Employee>
+    <Employee employee_id="181" job_id="SH_CLERK" manager_id="120" department_id="50">
+      <first_name>Jean</first_name>
+      <last_name>Fleaur</last_name>
+      <email>JFLEAUR</email>
+      <phone_number>1.650.555.0146</phone_number>
+      <hire_date>2016-02-23</hire_date>
+      <salary>3100</salary>
+    </Employee>
+    <Employee employee_id="182" job_id="SH_CLERK" manager_id="120" department_id="50">
+      <first_name>Martha</first_name>
+      <last_name>Sullivan</last_name>
+      <email>MSULLIVA</email>
+      <phone_number>1.650.555.0147</phone_number>
+      <hire_date>2017-06-21</hire_date>
+      <salary>2500</salary>
+    </Employee>
+    <Employee employee_id="183" job_id="SH_CLERK" manager_id="120" department_id="50">
+      <first_name>Girard</first_name>
+      <last_name>Geoni</last_name>
+      <email>GGEONI</email>
+      <phone_number>1.650.555.0148</phone_number>
+      <hire_date>2018-02-03</hire_date>
+      <salary>2800</salary>
+    </Employee>
+    <Employee employee_id="184" job_id="SH_CLERK" manager_id="121" department_id="50">
+      <first_name>Nandita</first_name>
+      <last_name>Sarchand</last_name>
+      <email>NSARCHAN</email>
+      <phone_number>1.650.555.0149</phone_number>
+      <hire_date>2014-01-27</hire_date>
+      <salary>4200</salary>
+    </Employee>
+    <Employee employee_id="185" job_id="SH_CLERK" manager_id="121" department_id="50">
+      <first_name>Alexis</first_name>
+      <last_name>Bull</last_name>
+      <email>ABULL</email>
+      <phone_number>1.650.555.0150</phone_number>
+      <hire_date>2015-02-20</hire_date>
+      <salary>4100</salary>
+    </Employee>
+    <Employee employee_id="186" job_id="SH_CLERK" manager_id="121" department_id="50">
+      <first_name>Julia</first_name>
+      <last_name>Dellinger</last_name>
+      <email>JDELLING</email>
+      <phone_number>1.650.555.0151</phone_number>
+      <hire_date>2016-06-24</hire_date>
+      <salary>3400</salary>
+    </Employee>
+    <Employee employee_id="187" job_id="SH_CLERK" manager_id="121" department_id="50">
+      <first_name>Anthony</first_name>
+      <last_name>Cabrio</last_name>
+      <email>ACABRIO</email>
+      <phone_number>1.650.555.0152</phone_number>
+      <hire_date>2017-02-07</hire_date>
+      <salary>3000</salary>
+    </Employee>
+    <Employee employee_id="188" job_id="SH_CLERK" manager_id="122" department_id="50">
+      <first_name>Kelly</first_name>
+      <last_name>Chung</last_name>
+      <email>KCHUNG</email>
+      <phone_number>1.650.555.0153</phone_number>
+      <hire_date>2015-06-14</hire_date>
+      <salary>3800</salary>
+    </Employee>
+    <Employee employee_id="189" job_id="SH_CLERK" manager_id="122" department_id="50">
+      <first_name>Jennifer</first_name>
+      <last_name>Dilly</last_name>
+      <email>JDILLY</email>
+      <phone_number>1.650.555.0154</phone_number>
+      <hire_date>2015-08-13</hire_date>
+      <salary>3600</salary>
+    </Employee>
+    <Employee employee_id="190" job_id="SH_CLERK" manager_id="122" department_id="50">
+      <first_name>Timothy</first_name>
+      <last_name>Venzl</last_name>
+      <email>TVENZL</email>
+      <phone_number>1.650.555.0155</phone_number>
+      <hire_date>2016-07-11</hire_date>
+      <salary>2900</salary>
+    </Employee>
+    <Employee employee_id="191" job_id="SH_CLERK" manager_id="122" department_id="50">
+      <first_name>Randall</first_name>
+      <last_name>Perkins</last_name>
+      <email>RPERKINS</email>
+      <phone_number>1.650.555.0156</phone_number>
+      <hire_date>2017-12-19</hire_date>
+      <salary>2500</salary>
+    </Employee>
+    <Employee employee_id="192" job_id="SH_CLERK" manager_id="123" department_id="50">
+      <first_name>Sarah</first_name>
+      <last_name>Bell</last_name>
+      <email>SBELL</email>
+      <phone_number>1.650.555.0157</phone_number>
+      <hire_date>2014-02-04</hire_date>
+      <salary>4000</salary>
+    </Employee>
+    <Employee employee_id="193" job_id="SH_CLERK" manager_id="123" department_id="50">
+      <first_name>Britney</first_name>
+      <last_name>Everett</last_name>
+      <email>BEVERETT</email>
+      <phone_number>1.650.555.0158</phone_number>
+      <hire_date>2015-03-03</hire_date>
+      <salary>3900</salary>
+    </Employee>
+    <Employee employee_id="194" job_id="SH_CLERK" manager_id="123" department_id="50">
+      <first_name>Samuel</first_name>
+      <last_name>McLeod</last_name>
+      <email>SMCLEOD</email>
+      <phone_number>1.650.555.0159</phone_number>
+      <hire_date>2016-07-01</hire_date>
+      <salary>3200</salary>
+    </Employee>
+    <Employee employee_id="195" job_id="SH_CLERK" manager_id="123" department_id="50">
+      <first_name>Vance</first_name>
+      <last_name>Jones</last_name>
+      <email>VJONES</email>
+      <phone_number>1.650.555.0160</phone_number>
+      <hire_date>2017-03-17</hire_date>
+      <salary>2800</salary>
+    </Employee>
+    <Employee employee_id="196" job_id="SH_CLERK" manager_id="124" department_id="50">
+      <first_name>Alana</first_name>
+      <last_name>Walsh</last_name>
+      <email>AWALSH</email>
+      <phone_number>1.650.555.0161</phone_number>
+      <hire_date>2016-04-24</hire_date>
+      <salary>3100</salary>
+    </Employee>
+    <Employee employee_id="197" job_id="SH_CLERK" manager_id="124" department_id="50">
+      <first_name>Kevin</first_name>
+      <last_name>Feeney</last_name>
+      <email>KFEENEY</email>
+      <phone_number>1.650.555.0162</phone_number>
+      <hire_date>2016-05-23</hire_date>
+      <salary>3000</salary>
+    </Employee>
+    <Employee employee_id="198" job_id="SH_CLERK" manager_id="124" department_id="50">
+      <first_name>Donald</first_name>
+      <last_name>OConnell</last_name>
+      <email>DOCONNEL</email>
+      <phone_number>1.650.555.0163</phone_number>
+      <hire_date>2017-06-21</hire_date>
+      <salary>2600</salary>
+    </Employee>
+    <Employee employee_id="199" job_id="SH_CLERK" manager_id="124" department_id="50">
+      <first_name>Douglas</first_name>
+      <last_name>Grant</last_name>
+      <email>DGRANT</email>
+      <phone_number>1.650.555.0164</phone_number>
+      <hire_date>2018-01-13</hire_date>
+      <salary>2600</salary>
+    </Employee>
+    <Employee employee_id="200" job_id="AD_ASST" manager_id="101" department_id="10">
+      <first_name>Jennifer</first_name>
+      <last_name>Whalen</last_name>
+      <email>JWHALEN</email>
+      <phone_number>1.515.555.0165</phone_number>
+      <hire_date>2013-09-17</hire_date>
+      <salary>4400</salary>
+    </Employee>
+    <Employee employee_id="201" job_id="MK_MAN" manager_id="100" department_id="20">
+      <first_name>Michael</first_name>
+      <last_name>Martinez</last_name>
+      <email>MMARTINE</email>
+      <phone_number>1.515.555.0166</phone_number>
+      <hire_date>2014-02-17</hire_date>
+      <salary>13000</salary>
+    </Employee>
+    <Employee employee_id="202" job_id="MK_REP" manager_id="201" department_id="20">
+      <first_name>Pat</first_name>
+      <last_name>Davis</last_name>
+      <email>PDAVIS</email>
+      <phone_number>1.603.555.0167</phone_number>
+      <hire_date>2015-08-17</hire_date>
+      <salary>6000</salary>
+    </Employee>
+    <Employee employee_id="203" job_id="HR_REP" manager_id="101" department_id="40">
+      <first_name>Susan</first_name>
+      <last_name>Jacobs</last_name>
+      <email>SJACOBS</email>
+      <phone_number>1.515.555.0168</phone_number>
+      <hire_date>2012-06-07</hire_date>
+      <salary>6500</salary>
+    </Employee>
+    <Employee employee_id="204" job_id="PR_REP" manager_id="101" department_id="70">
+      <first_name>Hermann</first_name>
+      <last_name>Brown</last_name>
+      <email>HBROWN</email>
+      <phone_number>1.515.555.0169</phone_number>
+      <hire_date>2012-06-07</hire_date>
+      <salary>10000</salary>
+    </Employee>
+    <Employee employee_id="205" job_id="AC_MGR" manager_id="101" department_id="110">
+      <first_name>Shelley</first_name>
+      <last_name>Higgins</last_name>
+      <email>SHIGGINS</email>
+      <phone_number>1.515.555.0170</phone_number>
+      <hire_date>2012-06-07</hire_date>
+      <salary>12008</salary>
+    </Employee>
+    <Employee employee_id="206" job_id="AC_ACCOUNT" manager_id="205" department_id="110">
+      <first_name>William</first_name>
+      <last_name>Gietz</last_name>
+      <email>WGIETZ</email>
+      <phone_number>1.515.555.0171</phone_number>
+      <hire_date>2012-06-07</hire_date>
+      <salary>8300</salary>
+    </Employee>
+  </Employees>
+  <JobHistory>
+    <JobHistoryEntry employee_id="102" start_date="2011-01-13" end_date="2016-07-24" job_id="IT_PROG" department_id="60"/>
+    <JobHistoryEntry employee_id="101" start_date="2007-09-21" end_date="2011-10-27" job_id="AC_ACCOUNT" department_id="110"/>
+    <JobHistoryEntry employee_id="101" start_date="2011-10-28" end_date="2015-03-15" job_id="AC_MGR" department_id="110"/>
+    <JobHistoryEntry employee_id="201" start_date="2014-02-17" end_date="2017-12-19" job_id="MK_REP" department_id="20"/>
+    <JobHistoryEntry employee_id="114" start_date="2016-03-24" end_date="2017-12-31" job_id="ST_CLERK" department_id="50"/>
+    <JobHistoryEntry employee_id="122" start_date="2017-01-01" end_date="2017-12-31" job_id="ST_CLERK" department_id="50"/>
+    <JobHistoryEntry employee_id="200" start_date="2005-09-17" end_date="2011-06-17" job_id="AD_ASST" department_id="90"/>
+    <JobHistoryEntry employee_id="176" start_date="2016-03-24" end_date="2016-12-31" job_id="SA_REP" department_id="80"/>
+    <JobHistoryEntry employee_id="176" start_date="2017-01-01" end_date="2017-12-31" job_id="SA_MAN" department_id="80"/>
+    <JobHistoryEntry employee_id="200" start_date="2012-07-01" end_date="2016-12-31" job_id="AC_ACCOUNT" department_id="90"/>
+  </JobHistory>
+</HumanResources>

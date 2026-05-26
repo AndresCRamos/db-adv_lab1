@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified"
+  version="1.0">
+
+  <xs:simpleType name="SalaryType">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="8" />
+      <xs:fractionDigits value="2" />
+      <xs:minExclusive value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- NUMBER(2,2) — comisión entre 0.00 y 0.99 -->
+  <xs:simpleType name="CommissionType">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="2" />
+      <xs:fractionDigits value="2" />
+      <xs:minInclusive value="0.00" />
+      <xs:maxInclusive value="0.99" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- NUMBER(6) — salario mínimo/máximo de un puesto -->
+  <xs:simpleType name="JobSalaryType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1" />
+      <xs:maxInclusive value="999999" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- REGIONS -->
+  <xs:complexType name="RegionType">
+    <xs:sequence>
+      <!-- region_name VARCHAR2(25), nullable -->
+      <xs:element name="region_name" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="25" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <!-- PK: region_id NOT NULL -->
+    <xs:attribute name="region_id" type="xs:positiveInteger" use="required" />
+  </xs:complexType>
+
+  <!-- COUNTRIES -->
+  <xs:complexType name="CountryType">
+    <xs:sequence>
+      <!-- country_name VARCHAR2(60), nullable -->
+      <xs:element name="country_name" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="60" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <!-- PK: country_id CHAR(2) NOT NULL -->
+    <xs:attribute name="country_id" type="xs:string" use="required" />
+    <!-- FK → regions.region_id (nullable) -->
+    <xs:attribute name="region_id" type="xs:positiveInteger" use="optional" />
+  </xs:complexType>
+
+  <!-- LOCATIONS -->
+  <xs:complexType name="LocationType">
+    <xs:sequence>
+      <!-- street_address VARCHAR2(40), nullable -->
+      <xs:element name="street_address" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="40" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- postal_code VARCHAR2(12), nullable -->
+      <xs:element name="postal_code" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="12" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- city VARCHAR2(30) NOT NULL -->
+      <xs:element name="city">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="30" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- state_province VARCHAR2(25), nullable -->
+      <xs:element name="state_province" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="25" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <!-- PK: location_id NUMBER(4) -->
+    <xs:attribute name="location_id" type="xs:integer" use="required" />
+    <!-- FK → countries.country_id (nullable) -->
+    <xs:attribute name="country_id" type="xs:string" use="optional" />
+  </xs:complexType>
+
+  <!-- DEPARTMENTS -->
+  <xs:complexType name="DepartmentType">
+    <xs:sequence>
+      <!-- department_name VARCHAR2(30) NOT NULL -->
+      <xs:element name="department_name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="30" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <!-- PK: department_id NUMBER(4) -->
+    <xs:attribute name="department_id" type="xs:integer" use="required" />
+    <!-- FK → employees.employee_id (nullable) -->
+    <xs:attribute name="manager_id" type="xs:integer" use="optional" />
+    <!-- FK → locations.location_id (nullable) -->
+    <xs:attribute name="location_id" type="xs:integer" use="optional" />
+  </xs:complexType>
+
+  <!-- JOBS -->
+  <xs:complexType name="JobType">
+    <xs:sequence>
+      <!-- job_title VARCHAR2(35) NOT NULL -->
+      <xs:element name="job_title">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="35" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- min_salary NUMBER(6), nullable -->
+      <xs:element name="min_salary" type="JobSalaryType" minOccurs="0" />
+      <!-- max_salary NUMBER(6), nullable -->
+      <xs:element name="max_salary" type="JobSalaryType" minOccurs="0" />
+    </xs:sequence>
+    <!-- PK: job_id VARCHAR2(10) -->
+    <xs:attribute name="job_id" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <!-- EMPLOYEES -->
+  <xs:complexType name="EmployeeType">
+    <xs:sequence>
+      <!-- first_name VARCHAR2(20), nullable -->
+      <xs:element name="first_name" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="20" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- last_name VARCHAR2(25) NOT NULL -->
+      <xs:element name="last_name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="25" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- email VARCHAR2(25) NOT NULL (UNIQUE enforced con xs:unique en raíz) -->
+      <xs:element name="email">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="25" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- phone_number VARCHAR2(20), nullable -->
+      <xs:element name="phone_number" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:maxLength value="20" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <!-- hire_date DATE NOT NULL -->
+      <xs:element name="hire_date" type="xs:date" />
+      <!-- salary NUMBER(8,2), nullable, CHECK > 0 -->
+      <xs:element name="salary" type="SalaryType" minOccurs="0" />
+      <!-- commission_pct NUMBER(2,2), nullable -->
+      <xs:element name="commission_pct" type="CommissionType" minOccurs="0" />
+    </xs:sequence>
+    <!-- PK: employee_id NUMBER(6) -->
+    <xs:attribute name="employee_id" type="xs:integer" use="required" />
+    <!-- FK → jobs.job_id NOT NULL -->
+    <xs:attribute name="job_id" type="xs:string" use="required" />
+    <!-- FK → employees.employee_id (auto-referencia, nullable) -->
+    <xs:attribute name="manager_id" type="xs:integer" use="optional" />
+    <!-- FK → departments.department_id (nullable) -->
+    <xs:attribute name="department_id" type="xs:integer" use="optional" />
+  </xs:complexType>
+
+  <!-- JOB_HISTORY -->
+  <xs:complexType name="JobHistoryType">
+    <!-- PK compuesta: (employee_id, start_date)
+         Todos los campos son NOT NULL excepto department_id -->
+    <xs:attribute name="employee_id" type="xs:integer" use="required" />
+    <xs:attribute name="start_date" type="xs:date" use="required" />
+    <xs:attribute name="end_date" type="xs:date" use="required" />
+    <!-- FK → jobs.job_id NOT NULL -->
+    <xs:attribute name="job_id" type="xs:string" use="required" />
+    <!-- FK → departments.department_id (nullable) -->
+    <xs:attribute name="department_id" type="xs:integer" use="optional" />
+  </xs:complexType>
+
+  <!-- ============================================================
+       Elemento raíz
+       ============================================================ -->
+  <xs:element name="HumanResources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Regions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Region" type="RegionType"
+                minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Countries">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Country" type="CountryType"
+                minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Locations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Location" type="LocationType"
+                minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Departments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Department" type="DepartmentType"
+                minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Jobs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Job" type="JobType"
+                minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="Employees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Employee" type="EmployeeType"
+                minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="JobHistory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="JobHistoryEntry" type="JobHistoryType"
+                minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+
+    <!-- ==========================================================
+         Claves primarias (xs:key → NOT NULL + UNIQUE)
+         ========================================================== -->
+    <xs:key name="RegionPK">
+      <xs:selector xpath="Regions/Region" />
+      <xs:field xpath="@region_id" />
+    </xs:key>
+
+    <xs:key name="CountryPK">
+      <xs:selector xpath="Countries/Country" />
+      <xs:field xpath="@country_id" />
+    </xs:key>
+
+    <xs:key name="LocationPK">
+      <xs:selector xpath="Locations/Location" />
+      <xs:field xpath="@location_id" />
+    </xs:key>
+
+    <xs:key name="DepartmentPK">
+      <xs:selector xpath="Departments/Department" />
+      <xs:field xpath="@department_id" />
+    </xs:key>
+
+    <xs:key name="JobPK">
+      <xs:selector xpath="Jobs/Job" />
+      <xs:field xpath="@job_id" />
+    </xs:key>
+
+    <xs:key name="EmployeePK">
+      <xs:selector xpath="Employees/Employee" />
+      <xs:field xpath="@employee_id" />
+    </xs:key>
+
+    <!-- PK compuesta de JOB_HISTORY -->
+    <xs:key name="JobHistoryPK">
+      <xs:selector xpath="JobHistory/JobHistoryEntry" />
+      <xs:field xpath="@employee_id" />
+      <xs:field xpath="@start_date" />
+    </xs:key>
+
+    <!-- ==========================================================
+         Restricción UNIQUE (emp_email_uk)
+         ========================================================== -->
+    <xs:unique name="EmployeeEmailUnique">
+      <xs:selector xpath="Employees/Employee" />
+      <xs:field xpath="email" />
+    </xs:unique>
+
+    <!-- ==========================================================
+         Claves foráneas (xs:keyref)
+         Nota: atributos opcionales (nullable FKs) son ignorados
+         automáticamente por el validador si el atributo está ausente.
+         ========================================================== -->
+
+    <!-- countries.region_id → regions.region_id -->
+    <xs:keyref name="CountryRegionFK" refer="RegionPK">
+      <xs:selector xpath="Countries/Country" />
+      <xs:field xpath="@region_id" />
+    </xs:keyref>
+
+    <!-- locations.country_id → countries.country_id -->
+    <xs:keyref name="LocationCountryFK" refer="CountryPK">
+      <xs:selector xpath="Locations/Location" />
+      <xs:field xpath="@country_id" />
+    </xs:keyref>
+
+    <!-- departments.location_id → locations.location_id -->
+    <xs:keyref name="DepartmentLocationFK" refer="LocationPK">
+      <xs:selector xpath="Departments/Department" />
+      <xs:field xpath="@location_id" />
+    </xs:keyref>
+
+    <!-- departments.manager_id → employees.employee_id (circular, OK en XSD) -->
+    <xs:keyref name="DepartmentManagerFK" refer="EmployeePK">
+      <xs:selector xpath="Departments/Department" />
+      <xs:field xpath="@manager_id" />
+    </xs:keyref>
+
+    <!-- employees.job_id → jobs.job_id -->
+    <xs:keyref name="EmployeeJobFK" refer="JobPK">
+      <xs:selector xpath="Employees/Employee" />
+      <xs:field xpath="@job_id" />
+    </xs:keyref>
+
+    <!-- employees.manager_id → employees.employee_id (auto-referencia) -->
+    <xs:keyref name="EmployeeManagerFK" refer="EmployeePK">
+      <xs:selector xpath="Employees/Employee" />
+      <xs:field xpath="@manager_id" />
+    </xs:keyref>
+
+    <!-- employees.department_id → departments.department_id -->
+    <xs:keyref name="EmployeeDepartmentFK" refer="DepartmentPK">
+      <xs:selector xpath="Employees/Employee" />
+      <xs:field xpath="@department_id" />
+    </xs:keyref>
+
+    <!-- job_history.employee_id → employees.employee_id -->
+    <xs:keyref name="JobHistoryEmployeeFK" refer="EmployeePK">
+      <xs:selector xpath="JobHistory/JobHistoryEntry" />
+      <xs:field xpath="@employee_id" />
+    </xs:keyref>
+
+    <!-- job_history.job_id → jobs.job_id -->
+    <xs:keyref name="JobHistoryJobFK" refer="JobPK">
+      <xs:selector xpath="JobHistory/JobHistoryEntry" />
+      <xs:field xpath="@job_id" />
+    </xs:keyref>
+
+    <!-- job_history.department_id → departments.department_id -->
+    <xs:keyref name="JobHistoryDepartmentFK" refer="DepartmentPK">
+      <xs:selector xpath="JobHistory/JobHistoryEntry" />
+      <xs:field xpath="@department_id" />
+    </xs:keyref>
+
+  </xs:element>
+
+</xs:schema>
